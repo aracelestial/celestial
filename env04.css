@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+H1 {color: #916ee9; font-family: andale mono, monospace;}
+
+p {color: #f5c4e0; font-family: andale mono, monospace;}
+
+p2 {color: lavender; font-family: andale mono, monospace;}
+
+i {color: #eb75f3;}
+
+b {color: #f11c26;}
+
+.high1  {background: rgb(231, 192, 255);}
+
+.spacetime {
+display: flex;
+flex-direction: row;
+gap: 100px;
+}
+
+
+button:hover {
+    padding: 50px;
+    width: 250px;
+    height: 100px;
+    background-color:lavender;
+
+}
