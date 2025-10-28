@@ -28,7 +28,7 @@ $("#eye-button").click(function () {
    
    $("#eye-button").html("" + moodMessage);
 
-   $("body").append("<img width=100px src='./eye.png'>");
+   $("body").append("<img width=100px src='eye.png'>");
 
 
    changeBackground( colors[colorCount] );
