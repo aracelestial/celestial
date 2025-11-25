@@ -13,7 +13,7 @@ megaSentence = "<p3>The celestial bodies that I am interested in are those that 
 
 megaSentence = megaSentence + "<p4>The most intriguing ones are: " + ancientLife.type + " that are " + ancientLife.bioma[1] + "</p4>";
 
-$(".output").html(megaSentence);
+$("#output").html(megaSentence);
 
 
 var count = 0;
