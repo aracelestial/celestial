@@ -31,7 +31,7 @@ $(".color-button").click( function () {
 });
 
 
-function mood (moodyCount){
+function moody (moodyCount){
    let mood="";
    if (moodyCount < 1) { mood = "awake"; }
    else if ((moodyCount >= 3) && (moodyCount < 7)) { mood = "I SEE YOU"; }
@@ -42,9 +42,9 @@ function mood (moodyCount){
 
 $("#eye-button").click(function () {
 
-   let moodyMessage=moody(count)
+   let moodMessage=moody(count)
    
-   $("#eye-button").html("" + moodyMessage);
+   $("#eye-button").html("" + moodMessage);
 
    $("body").append("<img width=100px src='ojitos.png'>");
 
@@ -56,4 +56,3 @@ $("#eye-button").click(function () {
    colorCount = colorCount + 1;
    if (colorCount == 3) { colorCount = 0; }
 });
-
