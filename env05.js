@@ -31,7 +31,7 @@ $(".color-button").click( function () {
 });
 
 
-function moody (moodyCount){
+function vision (moodyCount){
    let mood="";
    if (moodyCount < 1) { mood = "awake"; }
    else if ((moodyCount >= 3) && (moodyCount < 7)) { mood = "I SEE YOU"; }
@@ -42,7 +42,7 @@ function moody (moodyCount){
 
 $("#eye-button").click(function () {
 
-   let moodMessage=moody(count)
+   let moodMessage=vision(count)
    
    $("#eye-button").html("" + moodMessage);
 
