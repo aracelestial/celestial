@@ -31,10 +31,10 @@ $(".color-button").click( function () {
 });
 
 
-function universeTalking (talkingCount){
+function mood (moodyCount){
    let mood="";
-   if (talkingCount < 1) { mood = "awake"; }
-   else if ((talkingCount >= 3) && (talkingCount < 7)) { mood = "I SEE YOU"; }
+   if (moodyCount < 1) { mood = "awake"; }
+   else if ((moodyCount >= 3) && (moodyCount < 7)) { mood = "I SEE YOU"; }
    else { mood = "i see EVERYTHING"; }
 
    return mood;
@@ -42,9 +42,9 @@ function universeTalking (talkingCount){
 
 $("#eye-button").click(function () {
 
-   let visionMessage=moody(count)
+   let moodyMessage=moody(count)
    
-   $("#eye-button").html("" + visionMessage);
+   $("#eye-button").html("" + moodyMessage);
 
    $("body").append("<img width=100px src='ojitos.png'>");
 
