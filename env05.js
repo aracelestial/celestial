@@ -32,21 +32,21 @@ $(".color-button").click( function () {
 
 
 function vision (moodyCount){
-   let mood="";
-   if (moodyCount < 1) { mood = "awake"; }
-   else if ((moodyCount >= 3) && (moodyCount < 7)) { mood = "I SEE YOU"; }
-   else { mood = "i see EVERYTHING"; }
+   let talking="";
+   if (moodyCount < 1) { talking = "awake"; }
+   else if ((moodyCount >= 3) && (moodyCount < 7)) { talking = "I SEE YOU"; }
+   else { talking = "i see EVERYTHING"; }
 
-   return mood;
+   return talking;
 }
 
 $("#eye-button").click(function () {
 
-   let moodMessage=vision(count)
+   let universeMessage=vision(count)
    
-   $("#eye-button").html("" + moodMessage);
+   $("#eye-button").html("" + universeMessage);
 
-   $("body").append("<img width=100px src='ojitos.png'>");
+   $("body").append("<img width=100px src='eye.png'>");
 
 
    changeBackground( colors[colorCount] );
