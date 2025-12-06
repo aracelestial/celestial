@@ -1,5 +1,5 @@
 //Hiding and viewing ominous sentence
-$(".favorite-list span").click(function () {
+$(".spacetime").click(function () {
 
     $(this).parent().toggleClass("read");
 
