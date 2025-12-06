@@ -57,16 +57,8 @@ $("#eye-button").click(function () {
    if (colorCount == 3) { colorCount = 0; }
 });
 
-$("a").dblclick(hover(){
-  $("div").animate({left: '420px'});
-}); 
 
 $("a")
     .slideUp(1000)
     .slideDown(1000);
 
-
-$("a").hover(
-  function() { $("#thinking").text("are you sure?"); },
-  function() { $("#thinking").text("maybe not!"); },
-);
