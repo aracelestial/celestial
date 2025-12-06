@@ -14,6 +14,31 @@ megaSentence = "<p3>The celestial bodies that I am interested in are those that 
 megaSentence = megaSentence + "<p4>The most intriguing ones are: " + ancientLife.type + " that are " + ancientLife.bioma[1] + "</p4>";
 
 $("#output").html(megaSentence);
+};
+
+//spacetime sentences
+
+$(".spacetime span").click(function () {
+
+    $(this).parent().toggleClass("read");
+
+    if ($(this).html() == "read") {
+        $(this).html("less");
+    } else {
+        $(this).html("read");
+    }
+
+});
+
+$(".spacetime").on({
+  mouseenter: function(){
+    $(this).css("background-color", "#DB7093");
+  },
+  mouseleave: function(){
+    $(this).css("background-color", "rgb(239, 92, 185");
+  },
+});
+
 
 
 var count = 0;
