@@ -8,7 +8,16 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <!-- Link to external JavaScript file -->
     <script src="env05.js" defer></script>
-    <script src="https://strudel.cc/#CgokOiBuKCI8MCAyIDAgOCA2PioxNiIpLnNjYWxlKCJnOm1pbm9yIikudHJhbnMoLTgpCi5zKCJ6X3Nhd3Rvb3RoIikKLl9waWFub3JvbGwoKQoKCiQ6IHMoInNwYWNlOjkiKQogIC5kdWNrKCIzOjQ6NTo2IikKICAuZHVja2RlcHRoKC44KQogIC5kdWNrYXR0YWNrKC4xNikKICAuX3Njb3BlKCk%3D"></script>
+
+
+<script src="https://strudel.cc/#CgokOiBuKCI8MCAyIDAgOCA2PioxNiIpLnNjYWxlKCJnOm1pbm9yIikudHJhbnMoLTgpCi5zKCJ6X3Nhd3Rvb3RoIikKLl9waWFub3JvbGwoKQoKCiQ6IHMoInNwYWNlOjkiKQogIC5kdWNrKCIzOjQ6NTo2IikKICAuZHVja2RlcHRoKC44KQogIC5kdWNrYXR0YWNrKC4xNikKICAuX3Njb3BlKCk%3D"></script>
+<button id="play">play</button>
+<button id="stop">stop</button>
+<script>
+  initStrudel();
+  document.getElementById('play').addEventListener('click', () => note('<c a f e>(3,8)').jux(rev).play());
+  document.getElementById('stop').addEventListener('click', () => hush());
+</script>
 </head>
 
 <body>   
@@ -34,9 +43,6 @@
     <button id="eye-button"><a>want the universe to see you?</a></button>
 </div>
    
-    <strudel-repl src="https://strudel.cc/#CgokOiBuKCI8MCAyIDAgOCA2PioxNiIpLnNjYWxlKCJnOm1pbm9yIikudHJhbnMoLTgpCi5zKCJ6X3Nhd3Rvb3RoIikKLl9waWFub3JvbGwoKQoKCiQ6IHMoInNwYWNlOjkiKQogIC5kdWNrKCIzOjQ6NTo2IikKICAuZHVja2RlcHRoKC44KQogIC5kdWNrYXR0YWNrKC4xNikKICAuX3Njb3BlKCk%3D" width="600" height="300">></strudel-repl>
-
-
 </body>
 
 
