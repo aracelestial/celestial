@@ -32,10 +32,10 @@ $(".spacetime span").click(function () {
 
 $(".spacetime").on({
   mouseenter: function(){
-    $(this).css("background-color", "#D7A7F2");
+    $(this).css("background-color", "#431273");
   },
   mouseleave: function(){
-    $(this).css("background-color", "#3B76F5");
+    $(this).css("background-color", "#124973");
   },
 });
 
