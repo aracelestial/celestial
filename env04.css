@@ -18,8 +18,48 @@ b {color: #f11c26;}
 
 .high1  {background: rgb(231, 192, 255);}
 
+
+
 .spacetime {
-display: flex;
-flex-direction: row;
-gap: 100px;
+    height: 50px;
+    overflow: hidden;
+    width: 525px;
+    padding: 10px;
+    background: rgb(239, 92, 185);
+    display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.read {
+    height: auto;
+    overflow: visible;
+}
+
+.spacetime span {
+    cursor: crosshair;
+    color: rgb(231, 203, 243);
+}
+
+#button {
+    position: relative ;
+    background-color: rgba(248, 159, 189, 0.948);
+    border-radius: 50px;
+    color: rgb(241, 0, 0);
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: crosshair;
+}
+
+#button:hover {
+    background-color: #f17bc6;
+    color: rgb(134, 4, 127)
+}
+
+#thinking {
+    color: pink; 
+    font-family: brush script mt, monospace;
+    font-size: 30px
 }
