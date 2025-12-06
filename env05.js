@@ -46,7 +46,7 @@ $("#eye-button").click(function () {
    
    $("#eye-button").html("" + universeMessage);
 
-   $("body").append("<img width=100px src='ojitos.png'>");
+   $("body").append("<img width=100px src='EYE.png'>");
 
 
    changeBackground( colors[colorCount] );
