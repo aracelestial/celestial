@@ -1,16 +1,3 @@
-//Hiding and viewing ominous sentence
-$(".spacetime").click(function () {
-
-    $(this).parent().toggleClass("read");
-
-    if ($(this).html() == "read") {
-        $(this).html("less");
-    } else {
-        $(this).html("read");
-    }
-
-});
-
 // declaring an array with the name Planets
 let Planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn" , "Uranus", "Neptune"];
 
@@ -70,7 +57,7 @@ $("#eye-button").click(function () {
    if (colorCount == 3) { colorCount = 0; }
 });
 
-$("a").dblclick(function(){
+$("a").dblclick(hover(){
   $("div").animate({left: '420px'});
 }); 
 
