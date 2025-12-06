@@ -22,10 +22,10 @@ $(".spacetime span").click(function () {
 
     $(this).parent().toggleClass("read");
 
-    if ($(this).html() == "examples") {
+    if ($(this).html() == "read") {
         $(this).html("less");
     } else {
-        $(this).html("examples");
+        $(this).html("read");
     }
 
 });
