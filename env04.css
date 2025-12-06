@@ -24,14 +24,15 @@ i {color: #eb75f3;}
     background: rgb(239, 92, 185);
 }
 
-.examples {
-    height: auto;
-    overflow: visible;
-}
 
 .spacetime span {
     cursor: crosshair;
     color: rgb(231, 203, 243);
+}
+
+.examples {
+    height: auto;
+    overflow: visible;
 }
 
 .blinking {
