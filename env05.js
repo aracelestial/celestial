@@ -43,7 +43,7 @@ $(".spacetime").on({
 
 var count = 0;
 let colorCount = 0;
-var colors = ["black", "pink", "white"];
+var colors = ["black", "red", "white"];
 
 function changeBackground (newColor) {
    $("body").css("background-color", newColor);
