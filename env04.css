@@ -14,7 +14,11 @@ p4 {color: rgb(243, 245, 85); font-family: andale mono, monospace;}
 
 i {color: #eb75f3;}
 
-
+.output {
+    margin-top: 30px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-left: 10px;
 
 .spacetime {
     height: 50px;
