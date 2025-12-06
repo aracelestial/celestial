@@ -11,7 +11,7 @@ let megaSentence;
 
 megaSentence = "<p3>The celestial bodies that I am interested in are those that may contain traces of life: " + Planets[3] + ", " + Planets[5] + ", "+ Planets[6] + ". </p3>";
 
-megaSentence = megaSentence + "<br><p4>The most intriguing ones are: " + ancientLife.type + " that are " + ancientLife.bioma[1] + "</p4>";
+megaSentence = megaSentence + "<p4>The most intriguing ones are: " + ancientLife.type + " that are " + ancientLife.bioma[1] + "</p4>";
 
 $("#output").html(megaSentence);
 
