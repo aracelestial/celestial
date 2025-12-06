@@ -1,3 +1,16 @@
+//Hiding and viewing ominous sentence
+$(".favorite-list span").click(function () {
+
+    $(this).parent().toggleClass("read");
+
+    if ($(this).html() == "read") {
+        $(this).html("less");
+    } else {
+        $(this).html("read");
+    }
+
+});
+
 // declaring an array with the name Planets
 let Planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn" , "Uranus", "Neptune"];
 
