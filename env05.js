@@ -65,7 +65,7 @@ function vision (moodyCount){
    return talking;
 }
 
-$("#eye-button").click(function () {
+$("#eye-button").dblclick(function () {
 
    let universeMessage=vision(count)
    
