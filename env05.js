@@ -20,7 +20,7 @@ $("#output").html(megaSentence);
 
 $(".spacetime span").click(function () {
 
-    $(this).parent().toggleClass("examples");
+    $(this).parent().toggleClass("read");
 
     if ($(this).html() == "examples") {
         $(this).html("less");
