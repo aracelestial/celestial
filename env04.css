@@ -33,3 +33,9 @@ i {color: #eb75f3;}
     cursor: crosshair;
     color: rgb(231, 203, 243);
 }
+
+.blinking {
+    margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
